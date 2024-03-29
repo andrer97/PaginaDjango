@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>História do Cubo Mágico</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="container-fluid p-5 bg-primary text-white text-center">História do Cubo Mágico</h1>
+
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/historia">História</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tipos">Tipos de Cubos Mágicos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/campeonatos">Campeonatos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <br>
+        <div class="bg-warning p-3">
+            <h2>Origens do Cubo Mágico</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static "app_site/img/rubik_580x.jpg" %}"
+                        alt="Erno Rubik" class="img-fluid" width="200">
+                </div>
+                <div class="col-md-8">
+                    <p>O Cubo Mágico, também conhecido como Cubo de Rubik, foi inventado pelo arquiteto e professor de
+                        arquitetura húngaro Erno Rubik em 1974. Inicialmente concebido como uma ferramenta educacional
+                        para ilustrar conceitos de geometria tridimensional, o cubo logo se tornou um fenômeno global de
+                        entretenimento e desafio mental, cativando milhões de pessoas em todo o mundo com sua combinação
+                        única de simplicidade e complexidade.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-success p-3">
+            <h2>Popularidade e Reconhecimento Mundial</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static "app_site/img/cubo-80-1.jpg" %}"
+                        alt="Pessoas com cubos mágicos nos anos 80" width="200">
+                </div>
+                <div class="col-md-8">
+                    <p>Após seu lançamento inicial na Hungria, o Cubo Mágico rapidamente ganhou popularidade em todo o
+                        mundo, tornando-se um dos brinquedos mais vendidos de todos os tempos.</p>
+                    <p>Em 1980, o Cubo Mágico foi lançado internacionalmente e logo se tornou um fenômeno cultural,
+                        desafiando e fascinando milhões de pessoas com sua complexidade e apelo visual.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-primary p-3">
+            <h2>Impacto Cultural e Legado</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static "app_site/img/100812105340_cube_rubik_466x262_nocredit.jpg" %}"
+                        alt="Cubo Mágico" width="200">
+                </div>
+                <div class="col-md-8">
+                    <p>O Cubo Mágico não apenas cativou gerações de entusiastas de quebra-cabeças, mas também
+                        influenciou a arte, o design e a cultura popular em todo o mundo.</p>
+                    <p>Hoje, o Cubo Mágico é muito mais do que um simples quebra-cabeça; é um símbolo de
+                        criatividade,
+                        perseverança e resolução de problemas.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2024 Site do Cubo Mágico. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
